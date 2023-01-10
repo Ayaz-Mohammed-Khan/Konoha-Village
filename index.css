@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 25px;
+}
+
+/* NAVBAR */
+
+.navbar li {
+  display: block;
+  padding: 0.6rem;
+  margin-left: 2rem;
+  height: 10vw;
+}
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  text-shadow: 0 0 6px black;
+}
+.navbar a:hover {
+  color: #2c0930;
+  text-shadow: 0 0 6px white;
+}
+ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+.navbar {
+  background-color: rgba(0, 0, 0, 0.329);
+  position: fixed;
+  width: 100%;
+  height: 10%;
+  font-size: 0.8rem;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  color: #1d3557;
+  font-family: "Arial";
+  font-style: normal;
+}
+
+img {
+  width: 100px;
+}
+.hero-section {
+  background-image: url("images/konoha-cropped.jpg");
+  background-size: cover;
+  /* width: 720px; */
+  height: 343px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#torshov {
+  color: white;
+  background-color: #457b9d;
+  margin: 0px auto;
+  padding: 5px 12px;
+  border-radius: 10px;
+  font-size: 32px;
+  line-height: 36px;
+  width: 201px;
+  text-shadow: 0px 0px 3px black;
+}
+#abt-torshov {
+  background-color: #1d3557;
+  color: white;
+  margin: 21px auto;
+  padding: 5px 29px;
+  font-size: 18px;
+  width: 355px;
+  height: 39px;
+  border-radius: 10px;
+  text-shadow: 0px 0px 3px black;
+}
+.activities-section {
+  display: flex;
+  flex-direction: column;
+  background-color: #f1faee;
+  /* width: 720px; */
+  height: 378px;
+  margin: 0px auto;
+}
+#header-2 {
+  width: 440px;
+  height: 20px;
+  margin: 39px auto;
+  font-size: 24px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+}
+#imgs {
+  display: flex;
+  justify-content: space-evenly;
+}
+.round {
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+}
+#elem-header-1 {
+  width: 183px;
+  height: 32px;
+  margin: 23px auto;
+  font-size: 16px;
+  font-weight: 700px;
+}
+#p-1 {
+  width: 198px;
+  height: 55px;
+  margin: 17px auto;
+  font-size: 16px;
+  font-weight: 400px;
+}
+#elem-header-2 {
+  width: 162px;
+  height: 35px;
+  margin: 23px auto 0px auto;
+  font-size: 16px;
+  font-weight: 700px;
+}
+#p-2 {
+  width: 198px;
+  height: 54px;
+  margin: 20px auto;
+  font-size: 16px;
+  font-weight: 400px;
+}
+#elem-header-3 {
+  width: 197px;
+  height: 38px;
+  margin: 22px auto 0px auto;
+  font-size: 16px;
+  font-weight: 700px;
+}
+#p-3 {
+  width: 198px;
+  height: 54px;
+  margin: 18px auto;
+  font-size: 16px;
+  font-weight: 400px;
+}
+.guide-section {
+  display: flex;
+  width: 400px;
+  height: 294px;
+  margin: 50px auto;
+  border: 2px solid;
+  padding: 23px 13px;
+  border-radius: 10px;
+  background: #a8dadc;
+  box-shadow: 0px 6px 0px #1d3557;
+}
+#per-pic {
+  width: 180px;
+  height: 249px;
+}
+#header-3 {
+  width: 207px;
+  height: 32px;
+  font-size: 24px;
+}
+#h-p-3 {
+  width: 189px;
+  height: 71px;
+  font-size: 12px;
+  margin: 14px auto;
+  font-style: italic;
+}
+#header-4 {
+  width: 189px;
+  height: 18px;
+  font-size: 16px;
+  margin: 26px auto;
+}
